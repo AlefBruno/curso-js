@@ -3,3 +3,8 @@ function createPhrases() {
 }
 
 createPhrases()
+
+// Arrow Functions
+const sayMyName = name => console.log(`My Name is ${name}`)
+
+sayMyName("João")
